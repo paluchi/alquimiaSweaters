@@ -21,13 +21,14 @@
             <div class="row">
                 <div class="col-4">
                     <div class="logo">
-                        <a href="#">Your Logo</a>
+                        <a href="#">Logo</a>
                     </div>
                 </div>
                 <div class="col sections">
                     <div class="main_list">
                         <ul class="navlinks">
-                            <li><a href="#model1">About</a></li>
+                            <li class="ml-auto"><a href="#model1">About</a></li>
+                            <li class=""><a href="#model1">Aout</a></li>
                         </ul>
                     </div>
                 </div>
@@ -63,22 +64,22 @@
                     <!-- Slide One - Set the background image for this slide in the line below -->
                     <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/LAaSoL0LrYs/1920x1080')">
                         <div class="carousel-caption">
-                            <h2 class="display-4">First Slide</h2>
-                            <p class="lead">This is a description for the first slide.</p>
+                            <h2 class="title display-3">Alquimia Sweaters</h2>
+                            <p class="lead">Prendas pensadas para la mujer que siente libertad al vestirse</p>
                         </div>
                     </div>
                     <!-- Slide Two - Set the background image for this slide in the line below -->
                     <div class="carousel-item" style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')">
                         <div class="carousel-caption">
-                            <h2 class="display-4">Second Slide</h2>
-                            <p class="lead">This is a description for the second slide.</p>
+                            <h2 class="title display-3">Alquimia Sweaters</h2>
+                            <p class="lead">Moda versátil, adaptable a cualquier look y momento del dia</p>
                         </div>
                     </div>
                     <!-- Slide Three - Set the background image for this slide in the line below -->
                     <div class="carousel-item" style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
                         <div class="carousel-caption">
-                            <h2 class="display-4">Third Slide</h2>
-                            <p class="lead">This is a description for the third slide.</p>
+                            <h2 class="title display-3">Alquimia Sweaters</h2>
+                            <p class="lead">Texturas extremadamente suaves, nuestras prendas oversize hoy son tendencia</p>
                         </div>
                     </div>
                     <!--
@@ -93,17 +94,42 @@
         <div id="content" class='container'>
             <div class="model row justify-content-center">
                 <div id="model1" class="col-12 mt-5 mb-3 text-center">
-                    <h2 class="">modelo 1</h2>
+                    <h2 class="model-title">modelo 1</h2>
                 </div>
-                <div class="col-sm-6 col-lg-3">
+                <div class="col-sm-6 col-lg-4">
                     <div class="card">
                         <div class="card-body p-0">
-                            <div class="col-12 p-0 m-0">
-                                <img class="item-img" src="{{ URL::asset('images/season-2021/autumn-winter/models/capucha-esmeralda/ejemplo.jpg') }}" alt="">
+
+                            <div id="modelo1" class="carousel slide" data-ride="carousel" data-interval="false">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item product-carousel-item active">
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                        <span class="zoom">
+                                            <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/capucha-esmeralda/ejemplo.jpg')}}" alt="">
+                                        </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                        <span class="zoom">
+                                            <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/capucha-esmeralda/ejemplo2.jpg')}}" alt="">
+                                        </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#modelo1" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#modelo1" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
                             </div>
-                            <div class="info col-12 p-2">
+
+                            <div class="info col-12 text-start">
                                 <h4 class="card-title mb-1">modelo 1</h4>
-                                <p class="card-text m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At consequatur amet nihil quis nisi praesentium possimus, labore et tempore, tempora atque aut dicta aliquid. Eius excepturi minima itaque repudiandae vitae?</p>
+                                <p class="card-text m-0 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At consequatur </p>
                                 <div class="container">
                                     <div class="row justify-content-end color-container">
                                         <div class="color" style="background-color: red;"></div>
@@ -120,12 +146,50 @@
 
     </section>
 
+    <!-- Footer -->
+    <footer class="text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-0">
+            <!--Grid row-->
+            <!--Grid column-->
+            <div class="d-inline">
+                <div class=""></div>
+                <h5 class="text-uppercase">Footer Content</h5>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                </p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="icon d-inline">
+                <a href="https://www.facebook.com/alquimia.sweaters"><i class="fab fa-facebook-f fa-2x"></i></a>
+            </div>
+            <div class="icon d-inline">
+                <a href="https://www.instagram.com/alquimia.sweaters/?hl=es-la"><i class="fab fa-instagram fa-2x"></i></a>
+            </div>
+            <!--Grid column-->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="col-12 text-center ">
+            © 2021 Copyright:
+            <a class="text-dark" href="https://mdbootstrap.com/">Alquimia Sweaters</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <script src="{{ asset('js/app.js') }}"> </script>
+    <script src="{{ asset('js/jquery.zoom.js') }}"> </script>
+    <script src="{{ asset('js/zoomInit.js') }}"> </script>
 
     <script src="https://kit.fontawesome.com/296d8bf733.js" crossorigin="anonymous"></script>
 </body>
