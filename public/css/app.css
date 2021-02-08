@@ -7,6 +7,22 @@
     src: url("/fonts/alsscrp.ttf");
 }
 
+.affix {
+}
+
+.header-logo {
+    font-size: 2.2rem;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: "alsscrp";
+    color: violet;
+    text-align: start;
+}
+
+.footer-logo {
+    width: 150px;
+    height: 130px;
+}
 
 body {
     background-color: rgb(245, 245, 245);
@@ -21,13 +37,12 @@ html {
 }
 
 .season-title {
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
-.inner-season-tittle{
+.inner-season-title {
     padding-bottom: 20px;
-    font-size: 2.2rem;
-    text-decoration: underline dashed rgba(0, 0, 0, 0.5);
+    font-size: 3.2rem;
 }
 
 .carousel-item {
@@ -64,12 +79,11 @@ html {
     -webkit-box-shadow: 0px 10px 13px -13px #000000,
         0px 0px 0px 0px rgba(0, 0, 0, 0);
     box-shadow: 0px 10px 13px -13px #000000, 0px 0px 0px 0px rgba(0, 0, 0, 0);
-    border-radius: 8% 8% 8% 8%;
+    border-radius: 4%;
     margin-bottom: 20px;
 }
 
-
-.img-shadow{
+.img-shadow {
     -webkit-box-shadow: inset 0px -37px 35px -30px rgba(0, 0, 0, 0.9);
     box-shadow: inset 0px -37px 35px -30px rgba(0, 0, 0, 0.9);
 }
@@ -77,17 +91,17 @@ html {
 .card-img {
     padding-top: 10px;
     margin: auto;
-    border-radius: 8% 8% 8% 8%;
+    border-radius: 4%;
     width: 95%;
     height: 70vh;
     object-fit: cover;
 }
 
-.card-tittle{
+.card-title {
     font-size: 2.15rem;
 }
 
-.card-text{
+.card-text {
     padding-top: 5px;
 }
 
@@ -165,6 +179,96 @@ body {
     font-size: 1.6rem !important;
 }
 
+.info-card {
+    background-color: rgb(126, 184, 126);
+    height: 200px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000,
+        5px 5px 22px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 22px 5px rgba(0, 0, 0, 0);
+}
+
+@media only screen and (max-width: 600px) {
+    .info-card {
+        height: auto;
+    }
+}
+
+.box1 {
+    animation: 15s box1 infinite linear;
+}
+.box2 {
+    animation: 15s box2 infinite linear;
+}
+.box3 {
+    animation: 15s box3 infinite linear;
+}
+.box4 {
+    animation: 15s box4 infinite linear;
+}
+
+@keyframes box1 {
+    0% {
+        background-color: rgba(237, 255, 185, 0.342);
+    }
+    30% {
+        background-color: #a8ffff36;
+    }
+    70% {
+        background-color: rgba(199, 127, 165, 0.315);
+    }
+    100% {
+        background-color: rgba(231, 255, 159, 0.295);
+    }
+}
+@keyframes box2 {
+    0% {
+        background-color: #ffb5ae36;
+    }
+    30% {
+        background-color: #f7cac936;
+    }
+    70% {
+        background-color: #6cb3a236;
+    }
+    100% {
+        background-color: #ffa79f36;
+    }
+}
+@keyframes box3 {
+    0% {
+        background-color: #78b4ae36;
+    }
+    30% {
+        background-color: #dfcfbe36;
+    }
+    70% {
+        background-color: #7fcdcd36;
+    }
+    100% {
+        background-color: #78b4ae36;
+    }
+}
+@keyframes box4 {
+    0% {
+        background-color: #9bb6d436;
+    }
+    30% {
+        background-color: #ffaddd36;
+    }
+    70% {
+        background-color: #d4948736;
+    }
+    100% {
+        background-color: #a6c2e236;
+    }
+}
+
+.basic-info-text {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
 .product-lead {
     position: absolute;
     width: 80%;
@@ -182,10 +286,6 @@ body {
     right: 7%;
     bottom: 55px;
     color: gray;
-}
-
-.nav-active {
-    min-height: 50vh;
 }
 
 .nav div.logo {
@@ -289,40 +389,40 @@ body {
 }
 
 .navTrigger i:nth-child(1) {
-    -webkit-animation: outT 0.8s backwards;
-    animation: outT 0.8s backwards;
+    -webkit-animation: outT 0.4s backwards;
+    animation: outT 0.4s backwards;
     -webkit-animation-direction: reverse;
     animation-direction: reverse;
 }
 
 .navTrigger i:nth-child(2) {
     margin: 5px 0;
-    -webkit-animation: outM 0.8s backwards;
-    animation: outM 0.8s backwards;
+    -webkit-animation: outM 0.4s backwards;
+    animation: outM 0.4s backwards;
     -webkit-animation-direction: reverse;
     animation-direction: reverse;
 }
 
 .navTrigger i:nth-child(3) {
-    -webkit-animation: outBtm 0.8s backwards;
-    animation: outBtm 0.8s backwards;
+    -webkit-animation: outBtm 0.4s backwards;
+    animation: outBtm 0.4s backwards;
     -webkit-animation-direction: reverse;
     animation-direction: reverse;
 }
 
 .navTrigger.active i:nth-child(1) {
-    -webkit-animation: inT 0.8s forwards;
-    animation: inT 0.8s forwards;
+    -webkit-animation: inT 0.4s forwards;
+    animation: inT 0.4s forwards;
 }
 
 .navTrigger.active i:nth-child(2) {
-    -webkit-animation: inM 0.8s forwards;
-    animation: inM 0.8s forwards;
+    -webkit-animation: inM 0.4s forwards;
+    animation: inM 0.4s forwards;
 }
 
 .navTrigger.active i:nth-child(3) {
-    -webkit-animation: inBtm 0.8s forwards;
-    animation: inBtm 0.8s forwards;
+    -webkit-animation: inBtm 0.4s forwards;
+    animation: inBtm 0.4s forwards;
 }
 
 @-webkit-keyframes inM {
@@ -502,7 +602,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar {
     width: 8px;
-    background-color:  rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
 }
 
 body::-webkit-scrollbar-thumb {

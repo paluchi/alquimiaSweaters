@@ -12,23 +12,25 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <link rel="icon" href="{{asset('images/head/logo.png')}}">
     <title>Outfix Sweaters</title>
 </head>
 
 <body>
     <nav id="navbar" class="nav">
-        <div class="container">
+        <div class="container mx-5">
             <div class="row">
-                <div class="col-4">
-                    <div class="logo">
-                        <a href="#">Logo</a>
+                <div class="col-6">
+                    <div class="">
+                        <a href="#">
+                            <h2 class="header-logo">Alquimia Sweaters</h2>
+                        </a>
                     </div>
                 </div>
                 <div class="col sections">
                     <div class="main_list">
                         <ul class="navlinks">
-                            <li class="ml-auto"><a href="#model1">About</a></li>
-                            <li class=""><a href="#model1">Aout</a></li>
+                            <li class="ml-auto"><a href="#temporada-2021">Temporada 2021</a></li>
                         </ul>
                     </div>
                 </div>
@@ -49,7 +51,7 @@
                 <div id="sections-mobile" class="col-12 d-none">
                     <div class="main_list">
                         <ul class="navlinks">
-                            <li><a href="#model1">Abasdout</a></li>
+                            <li><a href="#temporada-2021">Temporada 2021</a></li>
                         </ul>
                     </div>
                 </div>
@@ -79,7 +81,7 @@
                     <div class="carousel-item" style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
                         <div class="carousel-caption header-carousel-caption">
                             <h2 class="title  header-title display-3">Alquimia Sweaters</h2>
-                            <p class="lead header-lead">Texturas extremadamente suaves, nuestras prendas oversize hoy son tendencia</p>
+                            <p class="lead header-lead">Prendas con texturas extremadamente suaves</p>
                         </div>
                     </div>
                     <!--
@@ -99,15 +101,15 @@
                 </div>
 
                 <div id="otoño-invierno" class="col-12 mt-0 mb-2s text-center">
-                    <h2 class="inner-season-tittle">"otoño-invierno"</h2>
+                    <h2 class="inner-season-title">"otoño-invierno"</h2>
                 </div>
 
 
-                <div class="col-12 col-md-9 col-lg-4">
+                <div class="col-12 col-md-9 col-lg-5">
                     <div class="card">
                         <div class="card-body p-0">
 
-                            <div id="maxi-zafiro-bolsillos" class="carousel" data-ride="carousel" data-interval="false">
+                            <div id="maxi-zafiro-bolsillos" class="carousel" data-ride="carousel" data-interval="false" data-touch="false">
                                 <div class="carousel-inner">
                                     <div class="carousel-item product-carousel-item active">
                                         <div class="carousel-caption">
@@ -115,7 +117,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center" style="">
                                             <span class="zoom z1">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/h1.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/h1.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -125,7 +127,7 @@
                                                 <p class="product-lead">Lima</p>
                                             </div>
                                             <span class="zoom z1">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/h2.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/h2.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -135,7 +137,7 @@
                                                 <p class="product-lead">Militar</p>
                                             </div>
                                             <span class="zoom z1">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/h3.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/h3.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -145,7 +147,7 @@
                                                 <p class="product-lead">Beige</p>
                                             </div>
                                             <span class="zoom z1">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c1.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c1.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -155,7 +157,7 @@
                                                 <p class="product-lead">Rojo</p>
                                             </div>
                                             <span class="zoom z1">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c2.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c2.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -165,7 +167,7 @@
                                                 <p class="product-lead">Lavanda</p>
                                             </div>
                                             <span class="zoom z1">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c3.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c3.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -175,7 +177,7 @@
                                                 <p class="product-lead">Negro</p>
                                             </div>
                                             <span class="zoom z1">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c4.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c4.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -185,7 +187,7 @@
                                                 <p class="product-lead">Gris</p>
                                             </div>
                                             <span class="zoom z1">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c5.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c5.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -195,7 +197,7 @@
                                                 <p class="product-lead">Rosa</p>
                                             </div>
                                             <span class="zoom z1">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c6.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c6.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -205,7 +207,7 @@
                                                 <p class="product-lead">Aqua</p>
                                             </div>
                                             <span class="zoom z1">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c7.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c7.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -215,7 +217,7 @@
                                                 <p class="product-lead">Verde</p>
                                             </div>
                                             <span class="zoom z1">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c8.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c8.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -225,7 +227,7 @@
                                                 <p class="product-lead">Lila</p>
                                             </div>
                                             <span class="zoom z1">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c9.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c9.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -235,7 +237,7 @@
                                                 <p class="product-lead">Lima</p>
                                             </div>
                                             <span class="zoom z1">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c10.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c10.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -245,7 +247,7 @@
                                                 <p class="product-lead">Militar</p>
                                             </div>
                                             <span class="zoom z1">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c11.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c11.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -255,7 +257,7 @@
                                                 <p class="product-lead">Militar</p>
                                             </div>
                                             <span class="zoom z1">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c12.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c12.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -265,7 +267,7 @@
                                                 <p class="product-lead">Crudo</p>
                                             </div>
                                             <span class="zoom z1">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c13.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c13.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -281,7 +283,7 @@
                             </div>
 
                             <div class="info text-start">
-                                <h4 class="card-tittle d-inline">Maxi zafiro</h4>
+                                <h4 class="card-title d-inline">Maxi zafiro</h4>
                                 <h5 class="price d-inline">$2390</h5>
                                 <p class="card-text text-center"> rem ipsum dolor, sit amet consectetur adipisiipsum dolor, sit amet consectetur adipisicing elit. At consequatur </p>
                                 <div class="container">
@@ -299,11 +301,11 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-9 col-lg-4">
+                <div class="col-12 col-md-9 col-lg-5">
                     <div class="card">
                         <div class="card-body p-0">
 
-                            <div id="clasico-alma" class="carousel" data-ride="carousel" data-interval="false">
+                            <div id="clasico-alma" class="carousel" data-ride="carousel" data-interval="false" data-touch="false">
                                 <div class="carousel-inner">
                                     <div class="carousel-item product-carousel-item active">
                                         <div class="carousel-caption">
@@ -311,7 +313,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center" style="">
                                             <span class="zoom z2">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/h1.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/h1.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -321,7 +323,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center" style="">
                                             <span class="zoom z2">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/h2.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/h2.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -331,7 +333,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center" style="">
                                             <span class="zoom z2">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/c1.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/c1.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -341,7 +343,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center" style="">
                                             <span class="zoom z2">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/c2.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/c2.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -351,7 +353,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center" style="">
                                             <span class="zoom z2">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/c3.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/c3.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -361,7 +363,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center" style="">
                                             <span class="zoom z2">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/c4.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/c4.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -371,7 +373,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center" style="">
                                             <span class="zoom z2">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/c5.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/c5.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -381,7 +383,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center" style="">
                                             <span class="zoom z2">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/c6.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/c6.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -391,7 +393,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center" style="">
                                             <span class="zoom z2">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/c7.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/c7.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -408,7 +410,7 @@
                             </div>
 
                             <div class="info text-start">
-                                <h4 class="card-tittle d-inline">Clásico Alma</h4>
+                                <h4 class="card-title d-inline">Clásico Alma</h4>
                                 <h5 class="price d-inline">$2200</h5>
                                 <p class="card-text text-center"> rem ipsum dolor, sit amet consectetur adipisiipsum dolor, sit amet consectetur adipisicing elit. At consequatur </p>
                                 <div class="container">
@@ -426,11 +428,11 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-9 col-lg-4">
+                <div class="col-12 col-md-9 col-lg-5">
                     <div class="card">
                         <div class="card-body p-0">
 
-                            <div id="capucha-esmeralda" class="carousel" data-ride="carousel" data-interval="false">
+                            <div id="capucha-esmeralda" class="carousel" data-ride="carousel" data-interval="false" data-touch="false">
                                 <div class="carousel-inner">
                                     <div class="carousel-item product-carousel-item active">
                                         <div class="carousel-caption">
@@ -438,7 +440,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center" style="">
                                             <span class="zoom z3">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/capucha-esmeralda/h1.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/capucha-esmeralda/h1.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -448,7 +450,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center" style="">
                                             <span class="zoom z3">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/capucha-esmeralda/h2.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/capucha-esmeralda/h2.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -458,7 +460,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center" style="">
                                             <span class="zoom z3">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/capucha-esmeralda/h3.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/capucha-esmeralda/h3.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -468,7 +470,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center" style="">
                                             <span class="zoom z3">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/capucha-esmeralda/c1.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/capucha-esmeralda/c1.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -478,7 +480,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center" style="">
                                             <span class="zoom z3">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/capucha-esmeralda/c2.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/capucha-esmeralda/c2.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -498,7 +500,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center" style="">
                                             <span class="zoom z3">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/capucha-esmeralda/c4.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/capucha-esmeralda/c4.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -515,7 +517,7 @@
                             </div>
 
                             <div class="info text-start">
-                                <h4 class="card-tittle d-inline">Capucha esmeralda</h4>
+                                <h4 class="card-title d-inline">Capucha esmeralda</h4>
                                 <h5 class="price d-inline">$2390</h5>
                                 <p class="card-text text-center"> rem ipsum dolor, sit amet consectetur adipisiipsum dolor, sit amet consectetur adipisicing elit. At consequatur </p>
                                 <div class="container">
@@ -533,11 +535,11 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-9 col-lg-4">
+                <div class="col-12 col-md-9 col-lg-5">
                     <div class="card">
                         <div class="card-body p-0">
 
-                            <div id="maxi-rayado" class="carousel" data-ride="carousel" data-interval="false">
+                            <div id="maxi-rayado" class="carousel" data-ride="carousel" data-interval="false"  data-touch="false">
                                 <div class="carousel-inner">
                                     <div class="carousel-item product-carousel-item active">
                                         <div class="carousel-caption">
@@ -545,7 +547,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
                                             <span class="zoom z4">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/h1.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/h1.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -555,7 +557,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
                                             <span class="zoom z4">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/h2.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/h2.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -565,7 +567,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
                                             <span class="zoom z4">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/h3.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/h3.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -575,7 +577,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
                                             <span class="zoom z4">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/h4.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/h4.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -585,7 +587,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
                                             <span class="zoom z4">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/c1.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/c1.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -595,7 +597,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
                                             <span class="zoom z4">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/c2.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/c2.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -605,7 +607,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
                                             <span class="zoom z4">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/c3.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/c3.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -615,7 +617,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
                                             <span class="zoom z4">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/c4.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/c4.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -625,7 +627,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
                                             <span class="zoom z4">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/c5.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/c5.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -635,7 +637,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
                                             <span class="zoom z4">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/c6.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/c6.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -645,7 +647,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
                                             <span class="zoom z4">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/c7.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/c7.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -662,7 +664,7 @@
                             </div>
 
                             <div class="info text-start">
-                                <h4 class="card-tittle d-inline">Maxi rayado</h4>
+                                <h4 class="card-title d-inline">Maxi rayado</h4>
                                 <h5 class="price d-inline">$2200</h5>
                                 <p class="card-text text-center"> rem ipsum dolor, sit amet consectetur adipisiipsum dolor, sit amet consectetur adipisicing elit. At consequatur </p>
                                 <div class="container">
@@ -680,11 +682,11 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-9 col-lg-4">
+                <div class="col-12 col-md-9 col-lg-5">
                     <div class="card">
                         <div class="card-body p-0">
 
-                            <div id="saco-topacio" class="carousel" data-ride="carousel" data-interval="false">
+                            <div id="saco-topacio" class="carousel" data-ride="carousel" data-interval="false"  data-touch="false">
                                 <div class="carousel-inner">
                                     <div class="carousel-item product-carousel-item active">
                                         <div class="carousel-caption">
@@ -692,7 +694,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
                                             <span class="zoom z5">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/h1.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/h1.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -702,7 +704,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
                                             <span class="zoom z5">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/h2.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/h2.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -712,7 +714,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
                                             <span class="zoom z5">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/h3.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/h3.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -722,7 +724,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
                                             <span class="zoom z5">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/c1.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/c1.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -732,7 +734,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
                                             <span class="zoom z5">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/c2.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/c2.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -742,7 +744,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
                                             <span class="zoom z5">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/c3.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/c3.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -752,7 +754,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
                                             <span class="zoom z5">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/c4.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/c4.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -762,7 +764,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
                                             <span class="zoom z5">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/c5.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/c5.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -772,7 +774,7 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
                                             <span class="zoom z5">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/c6.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/c6.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -782,11 +784,11 @@
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
                                             <span class="zoom z5">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/c7.jpg')}}" alt="">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/c7.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
-                                    
+
 
                                 </div>
                                 <a class="carousel-control-prev" href="#saco-topacio" role="button" data-slide="prev">
@@ -800,7 +802,7 @@
                             </div>
 
                             <div class="info text-start">
-                                <h4 class="card-tittle d-inline">Maxi rayado</h4>
+                                <h4 class="card-title d-inline">Saco topacio</h4>
                                 <h5 class="price d-inline">$2200</h5>
                                 <p class="card-text text-center"> rem ipsum dolor, sit amet consectetur adipisiipsum dolor, sit amet consectetur adipisicing elit. At consequatur </p>
                                 <div class="container">
@@ -818,20 +820,19 @@
                     </div>
                 </div>
 
-                prox
-                <div class="col-12 col-md-9 col-lg-4">
+                <div class="col-12 col-md-9 col-lg-5">
                     <div class="card">
                         <div class="card-body p-0">
 
-                            <div id="saco-topacio" class="carousel" data-ride="carousel" data-interval="false">
+                            <div id="polera-ambar" class="carousel" data-ride="carousel" data-interval="false"  data-touch="false">
                                 <div class="carousel-inner">
                                     <div class="carousel-item product-carousel-item active">
                                         <div class="carousel-caption">
                                             <p class="product-lead">Lavanda</p>
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
-                                            <span class="zoom z5">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/h1.jpg')}}" alt="">
+                                            <span class="zoom z6">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/polera-ambar/h1.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -840,8 +841,8 @@
                                             <p class="product-lead">Lavanda</p>
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
-                                            <span class="zoom z5">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/h2.jpg')}}" alt="">
+                                            <span class="zoom z6">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/polera-ambar/h2.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -850,26 +851,96 @@
                                             <p class="product-lead">Lavanda</p>
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
-                                            <span class="zoom z5">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/h3.jpg')}}" alt="">
+                                            <span class="zoom z6">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/polera-ambar/c1.jpg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
-                                    
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z6">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/polera-ambar/c2.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z6">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/polera-ambar/c3.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z6">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/polera-ambar/c4.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z6">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/polera-ambar/c5.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z6">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/polera-ambar/c6.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z6">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/polera-ambar/c7.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z6">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/polera-ambar/c8.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+
 
                                 </div>
-                                <a class="carousel-control-prev" href="#saco-topacio" role="button" data-slide="prev">
+                                <a class="carousel-control-prev" href="#polera-ambar" role="button" data-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="sr-only">Previous</span>
                                 </a>
-                                <a class="carousel-control-next" href="#saco-topacio" role="button" data-slide="next">
+                                <a class="carousel-control-next" href="#polera-ambar" role="button" data-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                     <span class="sr-only">Next</span>
                                 </a>
                             </div>
 
                             <div class="info text-start">
-                                <h4 class="card-tittle d-inline">Maxi rayado</h4>
+                                <h4 class="card-title d-inline">Polera ambar</h4>
                                 <h5 class="price d-inline">$2200</h5>
                                 <p class="card-text text-center"> rem ipsum dolor, sit amet consectetur adipisiipsum dolor, sit amet consectetur adipisicing elit. At consequatur </p>
                                 <div class="container">
@@ -887,19 +958,21 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-9 col-lg-4">
+
+
+                <div class="col-12 col-md-9 col-lg-5">
                     <div class="card">
                         <div class="card-body p-0">
 
-                            <div id="trenza-cristal" class="carousel" data-ride="carousel" data-interval="false">
+                            <div id="trenza-cristal" class="carousel" data-ride="carousel" data-interval="false"  data-touch="false">
                                 <div class="carousel-inner">
                                     <div class="carousel-item product-carousel-item active">
                                         <div class="carousel-caption">
                                             <p class="product-lead">Lavanda</p>
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
-                                            <span class="zoom z5">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/trenza-cristal/h2.jpeg')}}" alt="">
+                                            <span class="zoom z7">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/trenza-cristal/h2.jpeg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -908,8 +981,8 @@
                                             <p class="product-lead">Lavanda</p>
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
-                                            <span class="zoom z5">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/trenza-cristal/h1.jpeg')}}" alt="">
+                                            <span class="zoom z7">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/trenza-cristal/h1.jpeg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -918,8 +991,8 @@
                                             <p class="product-lead">Lavanda</p>
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
-                                            <span class="zoom z5">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/trenza-cristal/c1.jpeg')}}" alt="">
+                                            <span class="zoom z7">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/trenza-cristal/c1.jpeg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -928,8 +1001,8 @@
                                             <p class="product-lead">Lavanda</p>
                                         </div>
                                         <div class=" col-12 p-0 m-0 text-center">
-                                            <span class="zoom z5">
-                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/trenza-cristal/c2.jpeg')}}" alt="">
+                                            <span class="zoom z7">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/trenza-cristal/c2.jpeg')}}" alt="">
                                             </span>
                                         </div>
                                     </div>
@@ -946,7 +1019,7 @@
                             </div>
 
                             <div class="info text-start">
-                                <h4 class="card-tittle d-inline">Trenza cristal</h4>
+                                <h4 class="card-title d-inline">Trenza cristal</h4>
                                 <h5 class="price d-inline">$2200</h5>
                                 <p class="card-text text-center"> rem ipsum dolor, sit amet consectetur adipisiipsum dolor, sit amet consectetur adipisicing elit. At consequatur </p>
                                 <div class="container">
@@ -964,9 +1037,149 @@
                     </div>
                 </div>
 
+                <div class="col-12 col-md-9 col-lg-5">
+                    <div class="card">
+                        <div class="card-body p-0">
+
+                            <div id="rombo-acuario" class="carousel" data-ride="carousel" data-interval="false"  data-touch="false">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item product-carousel-item active">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z8">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/rombo-acuario/h1.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z8">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/rombo-acuario/h2.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z5">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/rombo-acuario/c1.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z8">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/rombo-acuario/c2.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z8">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/rombo-acuario/c3.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z8">
+                                                <img loading="lazy" class="card-img" src="{{asset('images/season-2021/autumn-winter/models/rombo-acuario/c4.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <a class="carousel-control-prev" href="#rombo-acuario" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#rombo-acuario" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                            <div class="info text-start">
+                                <h4 class="card-title d-inline">Rombo acuario</h4>
+                                <h5 class="price d-inline">$2200</h5>
+                                <p class="card-text text-center"> rem ipsum dolor, sit amet consectetur adipisiipsum dolor, sit amet consectetur adipisicing elit. At consequatur </p>
+                                <div class="container">
+                                    <div>
+                                    </div>
+                                    <!-- 
+                                    <div class="row justify-content-end color-container">
+                                        <div class="color" style="background-color: red;"></div>
+                                        <div class="color" style="background-color: green;"></div>
+                                        <div class="color" style="background-color: blue;"></div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
 
+    <section id="basic-info" class="mt-5">
+        <div class="container">
+            <hr>
+            <div class="row justify-content-center">
+                <h2 class="inner-season-title text-uppercase text-center">
+                    Información
+                </h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-4">
+                    <div class="card info-card box1">
+                        <div class="card-body">
+                            <h2 class="text-center">box1</h2>
+                            <p class="basic-info-text">unt veniam minima, sed aspernatur id modi nihil ex cum, explicabo mollitia expedita. Obcaecati repudiandae doloribus eligendi ipsa.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="card info-card box2">
+                        <div class="card-body">
+                            <h2 class="text-center">box2</h2>
+                            <p class="basic-info-text">nt veniam minima, sed aspernatur id modi nihil ex cum, explicabo mollitia expedita. Obcaecati repudiandae doloribus eligendi ipsa.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="card info-card box3">
+                        <div class="card-body">
+                            <h2 class="text-center">box3</h2>
+                            <p class="basic-info-text"> veniam minima, sed aspernatur id modi nihil ex cum, explicabo mollitia expedita. Obcaecati repudiandae doloribus eligendi ipsa.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="card info-card box4">
+                        <div class="card-body">
+                            <h2 class="text-center">box4</h2>
+                            <p class="basic-info-text">iam minima, sed aspernatur id modi nihil ex cum, explicabo mollitia expedita. Obcaecati repudiandae doloribus eligendi ipsa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
@@ -976,7 +1189,8 @@
             <!--Grid row-->
             <!--Grid column-->
             <div class="d-inline">
-                <div class=""></div>
+
+                <img class="footer-logo" src="{{asset('images/head/logo.png')}}" alt="">
                 <h5 class="text-uppercase">Alquimia Sweaters</h5>
 
                 <p>
@@ -999,7 +1213,7 @@
         <!-- Copyright -->
         <div class="col-12 text-center ">
             © 2021 Copyright:
-            <a class="text-dark" href="https://mdbootstrap.com/">Alquimia Sweaters</a>
+            <a class="text-dark" href="#"> <a href="#"></a> Alquimia Sweaters</a>
         </div>
         <!-- Copyright -->
     </footer>
