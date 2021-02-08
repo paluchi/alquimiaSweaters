@@ -1,21 +1,29 @@
 @font-face {
     font-family: ChopinScript;
-    src: url("/fonts/ChopinScript.ttf");
+    src: url("fonts/ChopinScript.ttf");
 }
 @font-face {
     font-family: alsscrp;
-    src: url("/fonts/alsscrp.ttf");
+    src: url("fonts/alsscrp.ttf");
+}
+
+#logo:hover{
+    text-decoration: none;
+}
+
+#logo:focus{
+    text-decoration: none;
 }
 
 .affix {
 }
 
 .header-logo {
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     padding-top: 20px;
     padding-bottom: 10px;
     font-family: "alsscrp";
-    color: violet;
+    color: rgb(216, 60, 216);
     text-align: start;
 }
 
