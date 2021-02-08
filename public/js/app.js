@@ -23,7 +23,7 @@ function onetime(node, type, callback) {
 
 onetime(document, "scroll", function (e) {
     const content = $("#content");
-    $([document.documentElement, document.body]).animate({
-        scrollTop: content.offset().top - 150
-    }, 0);
+    //$([document.documentElement, document.body]).animate({
+        //scrollTop: content.offset().top - 70
+    //}, 0);
 });

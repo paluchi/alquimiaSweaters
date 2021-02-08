@@ -59,27 +59,27 @@
 
     <header class="">
         <div class="">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel" data-ride="carousel">
                 <div class="carousel-inner" role="listbox">
                     <!-- Slide One - Set the background image for this slide in the line below -->
                     <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/LAaSoL0LrYs/1920x1080')">
-                        <div class="carousel-caption">
-                            <h2 class="title display-3">Alquimia Sweaters</h2>
-                            <p class="lead">Prendas pensadas para la mujer que siente libertad al vestirse</p>
+                        <div class="carousel-caption header-carousel-caption">
+                            <h2 class="title  header-title display-3">Alquimia Sweaters</h2>
+                            <p class="lead header-lead">Prendas pensadas para la mujer que siente libertad al vestirse</p>
                         </div>
                     </div>
                     <!-- Slide Two - Set the background image for this slide in the line below -->
                     <div class="carousel-item" style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')">
-                        <div class="carousel-caption">
-                            <h2 class="title display-3">Alquimia Sweaters</h2>
-                            <p class="lead">Moda versátil, adaptable a cualquier look y momento del dia</p>
+                        <div class="carousel-caption header-carousel-caption">
+                            <h2 class="title  header-title display-3">Alquimia Sweaters</h2>
+                            <p class="lead header-lead">Moda versátil, adaptable a cualquier look y momento del dia</p>
                         </div>
                     </div>
                     <!-- Slide Three - Set the background image for this slide in the line below -->
                     <div class="carousel-item" style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
-                        <div class="carousel-caption">
-                            <h2 class="title display-3">Alquimia Sweaters</h2>
-                            <p class="lead">Texturas extremadamente suaves, nuestras prendas oversize hoy son tendencia</p>
+                        <div class="carousel-caption header-carousel-caption">
+                            <h2 class="title  header-title display-3">Alquimia Sweaters</h2>
+                            <p class="lead header-lead">Texturas extremadamente suaves, nuestras prendas oversize hoy son tendencia</p>
                         </div>
                     </div>
                     <!--
@@ -92,55 +92,878 @@
 
     <section>
         <div id="content" class='container'>
-            <div class="model row justify-content-center">
-                <div id="model1" class="col-12 mt-5 mb-3 text-center">
-                    <h2 class="model-title">modelo 1</h2>
+            <div class="row justify-content-center">
+                <div id="temporada-2021" class="col-12 mt-5 mb-3 text-center">
+                    <h2 class="season-title">Temporada 2021</h2>
+                    <hr>
                 </div>
-                <div class="col-sm-6 col-lg-4">
+
+                <div id="otoño-invierno" class="col-12 mt-0 mb-2s text-center">
+                    <h2 class="inner-season-tittle">"otoño-invierno"</h2>
+                </div>
+
+
+                <div class="col-12 col-md-9 col-lg-4">
                     <div class="card">
                         <div class="card-body p-0">
 
-                            <div id="modelo1" class="carousel slide" data-ride="carousel" data-interval="false">
+                            <div id="maxi-zafiro-bolsillos" class="carousel" data-ride="carousel" data-interval="false">
                                 <div class="carousel-inner">
                                     <div class="carousel-item product-carousel-item active">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
                                         <div class=" col-12 p-0 m-0 text-center" style="">
-                                        <span class="zoom">
-                                            <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/capucha-esmeralda/ejemplo.jpg')}}" alt="">
-                                        </span>
+                                            <span class="zoom z1">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/h1.jpg')}}" alt="">
+                                            </span>
                                         </div>
                                     </div>
-                                    <div class="carousel-item product-carousel-item">
+                                    <div class="carousel-item product-carousel-item ">
                                         <div class=" col-12 p-0 m-0 text-center" style="">
-                                        <span class="zoom">
-                                            <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/capucha-esmeralda/ejemplo2.jpg')}}" alt="">
-                                        </span>
+                                            <div class="carousel-caption">
+                                                <p class="product-lead">Lima</p>
+                                            </div>
+                                            <span class="zoom z1">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/h2.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item ">
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <div class="carousel-caption">
+                                                <p class="product-lead">Militar</p>
+                                            </div>
+                                            <span class="zoom z1">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/h3.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item ">
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <div class="carousel-caption">
+                                                <p class="product-lead">Beige</p>
+                                            </div>
+                                            <span class="zoom z1">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c1.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item ">
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <div class="carousel-caption">
+                                                <p class="product-lead">Rojo</p>
+                                            </div>
+                                            <span class="zoom z1">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c2.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item ">
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <div class="carousel-caption">
+                                                <p class="product-lead">Lavanda</p>
+                                            </div>
+                                            <span class="zoom z1">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c3.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item ">
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <div class="carousel-caption">
+                                                <p class="product-lead">Negro</p>
+                                            </div>
+                                            <span class="zoom z1">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c4.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item ">
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <div class="carousel-caption">
+                                                <p class="product-lead">Gris</p>
+                                            </div>
+                                            <span class="zoom z1">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c5.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item ">
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <div class="carousel-caption">
+                                                <p class="product-lead">Rosa</p>
+                                            </div>
+                                            <span class="zoom z1">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c6.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item ">
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <div class="carousel-caption">
+                                                <p class="product-lead">Aqua</p>
+                                            </div>
+                                            <span class="zoom z1">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c7.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item ">
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <div class="carousel-caption">
+                                                <p class="product-lead">Verde</p>
+                                            </div>
+                                            <span class="zoom z1">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c8.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item ">
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <div class="carousel-caption">
+                                                <p class="product-lead">Lila</p>
+                                            </div>
+                                            <span class="zoom z1">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c9.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item ">
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <div class="carousel-caption">
+                                                <p class="product-lead">Lima</p>
+                                            </div>
+                                            <span class="zoom z1">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c10.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item ">
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <div class="carousel-caption">
+                                                <p class="product-lead">Militar</p>
+                                            </div>
+                                            <span class="zoom z1">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c11.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item ">
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <div class="carousel-caption">
+                                                <p class="product-lead">Militar</p>
+                                            </div>
+                                            <span class="zoom z1">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c12.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item ">
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <div class="carousel-caption">
+                                                <p class="product-lead">Crudo</p>
+                                            </div>
+                                            <span class="zoom z1">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-zafiro/c13.jpg')}}" alt="">
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
-                                <a class="carousel-control-prev" href="#modelo1" role="button" data-slide="prev">
+                                <a class="carousel-control-prev" href="#maxi-zafiro-bolsillos" role="button" data-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="sr-only">Previous</span>
                                 </a>
-                                <a class="carousel-control-next" href="#modelo1" role="button" data-slide="next">
+                                <a class="carousel-control-next" href="#maxi-zafiro-bolsillos" role="button" data-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                     <span class="sr-only">Next</span>
                                 </a>
                             </div>
 
-                            <div class="info col-12 text-start">
-                                <h4 class="card-title mb-1">modelo 1</h4>
-                                <p class="card-text m-0 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At consequatur </p>
+                            <div class="info text-start">
+                                <h4 class="card-tittle d-inline">Maxi zafiro</h4>
+                                <h5 class="price d-inline">$2390</h5>
+                                <p class="card-text text-center"> rem ipsum dolor, sit amet consectetur adipisiipsum dolor, sit amet consectetur adipisicing elit. At consequatur </p>
                                 <div class="container">
+                                    <div>
+                                    </div>
+                                    <!-- 
                                     <div class="row justify-content-end color-container">
                                         <div class="color" style="background-color: red;"></div>
                                         <div class="color" style="background-color: green;"></div>
                                         <div class="color" style="background-color: blue;"></div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-12 col-md-9 col-lg-4">
+                    <div class="card">
+                        <div class="card-body p-0">
+
+                            <div id="clasico-alma" class="carousel" data-ride="carousel" data-interval="false">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item product-carousel-item active">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <span class="zoom z2">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/h1.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <span class="zoom z2">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/h2.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <span class="zoom z2">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/c1.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <span class="zoom z2">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/c2.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <span class="zoom z2">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/c3.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <span class="zoom z2">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/c4.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <span class="zoom z2">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/c5.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <span class="zoom z2">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/c6.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <span class="zoom z2">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/clasico-alma/c7.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <a class="carousel-control-prev" href="#clasico-alma" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#clasico-alma" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                            <div class="info text-start">
+                                <h4 class="card-tittle d-inline">Clásico Alma</h4>
+                                <h5 class="price d-inline">$2200</h5>
+                                <p class="card-text text-center"> rem ipsum dolor, sit amet consectetur adipisiipsum dolor, sit amet consectetur adipisicing elit. At consequatur </p>
+                                <div class="container">
+                                    <div>
+                                    </div>
+                                    <!-- 
+                                    <div class="row justify-content-end color-container">
+                                        <div class="color" style="background-color: red;"></div>
+                                        <div class="color" style="background-color: green;"></div>
+                                        <div class="color" style="background-color: blue;"></div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-9 col-lg-4">
+                    <div class="card">
+                        <div class="card-body p-0">
+
+                            <div id="capucha-esmeralda" class="carousel" data-ride="carousel" data-interval="false">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item product-carousel-item active">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <span class="zoom z3">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/capucha-esmeralda/h1.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <span class="zoom z3">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/capucha-esmeralda/h2.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <span class="zoom z3">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/capucha-esmeralda/h3.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <span class="zoom z3">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/capucha-esmeralda/c1.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <span class="zoom z3">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/capucha-esmeralda/c2.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <span class="zoom z3">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/capucha-esmeralda/c3.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center" style="">
+                                            <span class="zoom z3">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/capucha-esmeralda/c4.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <a class="carousel-control-prev" href="#capucha-esmeralda" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#capucha-esmeralda" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                            <div class="info text-start">
+                                <h4 class="card-tittle d-inline">Capucha esmeralda</h4>
+                                <h5 class="price d-inline">$2390</h5>
+                                <p class="card-text text-center"> rem ipsum dolor, sit amet consectetur adipisiipsum dolor, sit amet consectetur adipisicing elit. At consequatur </p>
+                                <div class="container">
+                                    <div>
+                                    </div>
+                                    <!-- 
+                                    <div class="row justify-content-end color-container">
+                                        <div class="color" style="background-color: red;"></div>
+                                        <div class="color" style="background-color: green;"></div>
+                                        <div class="color" style="background-color: blue;"></div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-9 col-lg-4">
+                    <div class="card">
+                        <div class="card-body p-0">
+
+                            <div id="maxi-rayado" class="carousel" data-ride="carousel" data-interval="false">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item product-carousel-item active">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z4">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/h1.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z4">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/h2.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z4">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/h3.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z4">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/h4.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z4">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/c1.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z4">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/c2.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z4">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/c3.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z4">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/c4.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z4">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/c5.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z4">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/c6.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z4">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/maxi-rayado/c7.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <a class="carousel-control-prev" href="#maxi-rayado" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#maxi-rayado" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                            <div class="info text-start">
+                                <h4 class="card-tittle d-inline">Maxi rayado</h4>
+                                <h5 class="price d-inline">$2200</h5>
+                                <p class="card-text text-center"> rem ipsum dolor, sit amet consectetur adipisiipsum dolor, sit amet consectetur adipisicing elit. At consequatur </p>
+                                <div class="container">
+                                    <div>
+                                    </div>
+                                    <!-- 
+                                    <div class="row justify-content-end color-container">
+                                        <div class="color" style="background-color: red;"></div>
+                                        <div class="color" style="background-color: green;"></div>
+                                        <div class="color" style="background-color: blue;"></div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-9 col-lg-4">
+                    <div class="card">
+                        <div class="card-body p-0">
+
+                            <div id="saco-topacio" class="carousel" data-ride="carousel" data-interval="false">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item product-carousel-item active">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z5">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/h1.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z5">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/h2.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z5">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/h3.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z5">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/c1.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z5">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/c2.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z5">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/c3.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z5">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/c4.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z5">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/c5.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z5">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/c6.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z5">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/c7.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    
+
+                                </div>
+                                <a class="carousel-control-prev" href="#saco-topacio" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#saco-topacio" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                            <div class="info text-start">
+                                <h4 class="card-tittle d-inline">Maxi rayado</h4>
+                                <h5 class="price d-inline">$2200</h5>
+                                <p class="card-text text-center"> rem ipsum dolor, sit amet consectetur adipisiipsum dolor, sit amet consectetur adipisicing elit. At consequatur </p>
+                                <div class="container">
+                                    <div>
+                                    </div>
+                                    <!-- 
+                                    <div class="row justify-content-end color-container">
+                                        <div class="color" style="background-color: red;"></div>
+                                        <div class="color" style="background-color: green;"></div>
+                                        <div class="color" style="background-color: blue;"></div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                prox
+                <div class="col-12 col-md-9 col-lg-4">
+                    <div class="card">
+                        <div class="card-body p-0">
+
+                            <div id="saco-topacio" class="carousel" data-ride="carousel" data-interval="false">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item product-carousel-item active">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z5">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/h1.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z5">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/h2.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z5">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/saco-topacio/h3.jpg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    
+
+                                </div>
+                                <a class="carousel-control-prev" href="#saco-topacio" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#saco-topacio" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                            <div class="info text-start">
+                                <h4 class="card-tittle d-inline">Maxi rayado</h4>
+                                <h5 class="price d-inline">$2200</h5>
+                                <p class="card-text text-center"> rem ipsum dolor, sit amet consectetur adipisiipsum dolor, sit amet consectetur adipisicing elit. At consequatur </p>
+                                <div class="container">
+                                    <div>
+                                    </div>
+                                    <!-- 
+                                    <div class="row justify-content-end color-container">
+                                        <div class="color" style="background-color: red;"></div>
+                                        <div class="color" style="background-color: green;"></div>
+                                        <div class="color" style="background-color: blue;"></div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-9 col-lg-4">
+                    <div class="card">
+                        <div class="card-body p-0">
+
+                            <div id="trenza-cristal" class="carousel" data-ride="carousel" data-interval="false">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item product-carousel-item active">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z5">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/trenza-cristal/h2.jpeg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z5">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/trenza-cristal/h1.jpeg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z5">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/trenza-cristal/c1.jpeg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item product-carousel-item">
+                                        <div class="carousel-caption">
+                                            <p class="product-lead">Lavanda</p>
+                                        </div>
+                                        <div class=" col-12 p-0 m-0 text-center">
+                                            <span class="zoom z5">
+                                                <img class="card-img" src="{{asset('images/season-2021/autumn-winter/models/trenza-cristal/c2.jpeg')}}" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <a class="carousel-control-prev" href="#trenza-cristal" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#trenza-cristal" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                            <div class="info text-start">
+                                <h4 class="card-tittle d-inline">Trenza cristal</h4>
+                                <h5 class="price d-inline">$2200</h5>
+                                <p class="card-text text-center"> rem ipsum dolor, sit amet consectetur adipisiipsum dolor, sit amet consectetur adipisicing elit. At consequatur </p>
+                                <div class="container">
+                                    <div>
+                                    </div>
+                                    <!-- 
+                                    <div class="row justify-content-end color-container">
+                                        <div class="color" style="background-color: red;"></div>
+                                        <div class="color" style="background-color: green;"></div>
+                                        <div class="color" style="background-color: blue;"></div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
@@ -154,7 +977,7 @@
             <!--Grid column-->
             <div class="d-inline">
                 <div class=""></div>
-                <h5 class="text-uppercase">Footer Content</h5>
+                <h5 class="text-uppercase">Alquimia Sweaters</h5>
 
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
