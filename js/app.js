@@ -13,3 +13,9 @@ $(window).scroll(function () {
         $(".nav").removeClass("affix");
     }
 });
+
+$('#f-logo').click(function() {
+    const eE = document.createElement('p');
+    eE.innerHTML = 'Te quiero mucho ma, perdon por a veces ser mal hijo y no hablarte';
+    $('#eE').append(eE);
+});
