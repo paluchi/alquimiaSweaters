@@ -18,8 +18,8 @@ $("[js-target='redirect-to-mayoristas']").click(function() {
     location.href = "https://www.google.com";
 });
 
-$("[js-target='redirect-to-minorista']").click(function() {
-    location.href = "https://paluchi.github.io/outfixSweaters/index";
+$("[js-target='redirect-to-minoristas']").click(function() {
+    location.href = "https://www.facebook.com";
 });
 
 $('#f-logo').click(function() {
