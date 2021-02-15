@@ -15,11 +15,13 @@ $(window).scroll(function () {
 });
 
 $("[js-target='redirect-to-mayoristas']").click(function() {
-    location.href = "https://www.google.com";
+    //location.href = "https://www.google.com";
+    console.log("tomayo");
 });
 
 $("[js-target='redirect-to-minoristas']").click(function() {
-    location.href = "https://www.facebook.com";
+    //location.href = "https://www.facebook.com";
+    console.log("tominor");
 });
 
 $('#f-logo').click(function() {
