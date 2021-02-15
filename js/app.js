@@ -15,7 +15,7 @@ $(window).scroll(function () {
 });
 
 $("[js-target='redirect-to-mayoristas']").click(function() {
-    location.href = "https://paluchi.github.io/outfixSweaters";
+    location.href = "https://paluchi.github.io/outfixSweaters/minoristas";
 });
 
 $("[js-target='redirect-to-minorista']").click(function() {
