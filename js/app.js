@@ -15,11 +15,9 @@ $(window).scroll(function () {
 });
 
 $("[js-target='redirect-to-mayoristas']").click(function() {
-    window.location.replace("https://www.google.com");
 });
 
 $("[js-target='redirect-to-minoristas']").click(function() {
-    window.location.replace("http://stackoverflow.com");
 });
 
 $('#f-logo').click(function() {
