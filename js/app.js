@@ -19,7 +19,7 @@ $("[js-target='redirect-to-mayoristas']").click(function() {
 });
 
 $("[js-target='redirect-to-minorista']").click(function() {
-    location.href = "https://paluchi.github.io/outfixSweaters";
+    location.href = "https://paluchi.github.io/outfixSweaters/index";
 });
 
 $('#f-logo').click(function() {
