@@ -14,6 +14,14 @@ $(window).scroll(function () {
     }
 });
 
+$("[js-target='redirect-to-mayoristas']").click(function() {
+    location.href = "https://paluchi.github.io/outfixSweaters";
+});
+
+$("[js-target='redirect-to-minorista']").click(function() {
+    location.href = "https://paluchi.github.io/outfixSweaters";
+});
+
 $('#f-logo').click(function() {
     const eE = document.createElement('p');
     eE.innerHTML = 'Te quiero mucho ma, perdon por a veces ser mal hijo y no hablarte';
