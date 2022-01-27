@@ -1,1 +1,1 @@
-#Pure vanilla static webPage
+# Pure vanilla static webPage
